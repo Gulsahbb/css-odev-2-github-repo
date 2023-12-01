@@ -1,0 +1,82 @@
+body {
+    font-family: Lucida Grande, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 999px;
+    margin-left: 15%;
+}
+
+/*Google Logo Görseli*/
+.container .img-box {
+    width: 500px;
+    padding-left: 30%;
+}
+
+/* Arama Kutusu*/
+.container .search-box {
+    text-align: center;
+    padding: 0.5%;
+}
+
+.container .search-box input {
+    width: 250px;
+}
+
+.container .search-box button {
+    width: 100px;
+}
+
+.container .info-box {
+    width: 1002px;
+    float: left;
+}
+
+.container .info-box .bttm-box {
+    width: 33%;
+    float: left;
+    padding: 0.0003%;
+    margin-top: 0.3%;
+    margin-right: 0.3%;
+}
+
+/*Mavi Kutuların içeriği ortalandı. Ve boyutu düzenlendi.*/
+.bttm-box {
+    text-align: center;
+    height: 73px;
+    margin-bottom: 15px;
+}
+
+.bttm-box ul {
+    list-style-type: none;
+}
+
+/* Footer Kısmı*/
+.footer-box {
+    font-size: 10px;
+    text-align: center;
+    margin: 9px;
+}
+
+/*Kullanılan Renkler*/
+.bg-grey {
+    background-color: rgb(238, 238, 238);
+}
+
+.bg-sblue {
+    background-color: rgb(126, 229, 218);
+}
+
+.bg-mblue {
+    background-color: rgb(112, 204, 194);
+}
+
+.bg-dblue {
+    background-color: rgb(98, 179, 170);
+}
